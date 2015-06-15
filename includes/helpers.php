@@ -140,7 +140,7 @@ function buddyreshare_get_component_name() {
  */
 function buddyreshare_js_vars() {
 	return apply_filters( 'buddyreshare_js_vars', array( 
-		'no_reshare_text' => __( 'You did not reshared any activities so far.', 'bp-reshare' ),
+		'no_reshare_text' => __( 'You have not reshared any activities so far.', 'bp-reshare' ),
 		'cheating_text'   => __( 'Cheating ?!', 'bp-reshare' ),
 		'reshared_text'   => __( 'Reshared', 'bp-reshare' ),
 		'personal_li'     => buddyreshare_get_component_slug(),
